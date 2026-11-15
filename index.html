@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resort Development Group — Агентство недвижимости Москва и Химки</title>
+  <meta name="description" content="Агентство недвижимости в Москве и Химках. Купить, продать, сдать, снять квартиру или дом. Кредитование под залог недвижимости.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <div class="logo-block">
+        <h1>Resort Development Group</h1>
+        <span>Агентство недвижимости • Москва и Химки</span>
+      </div>
+      <div class="header-phones">
+        <a href="tel:+79670191605" class="phone-link">+7 (967) 019-16-05</a>
+        <a href="tel:+79035238402" class="phone-link">+7 (903) 523-84-02</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">Работаем по Москве и Московской области</div>
+      <h2>Поможем купить, продать, сдать или снять любую недвижимость</h2>
+      <p>Полное сопровождение сделок с жилой, загородной и коммерческой недвижимостью, а также быстрое одобрение кредитов под залог объектов.</p>
+      <div class="hero-buttons">
+        <a href="#form" class="btn btn-primary">Оставить заявку</a>
+        <a href="https://t.me/" class="btn btn-tg" target="_blank" rel="noopener">Telegram</a>
+        <a href="https://wa.me/79670191605" class="btn btn-wa" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Наши услуги</h2>
+      <p class="section-subtitle">Полный спектр услуг на рынке недвижимости</p>
+      <div class="grid-4">
+        <div class="card">
+          <div class="card-icon">🏠</div>
+          <h3>Купить</h3>
+          <p>Подбор и покупка квартир, домов и коммерческих помещений.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">💰</div>
+          <h3>Продать</h3>
+          <p>Оценка, подготовка и продажа вашего объекта недвижимости.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔑</div>
+          <h3>Сдать</h3>
+          <p>Поиск арендаторов и полное сопровождение аренды.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🔍</div>
+          <h3>Снять</h3>
+          <p>Помощь в поиске и аренде жилья на выгодных условиях.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="loan-section">
+    <div class="container">
+      <div class="loan-box">
+        <span class="loan-badge">КПЗН</span>
+        <h2 class="section-title">Кредитование под залог недвижимости</h2>
+        <p class="section-subtitle">Быстрое одобрение на выгодных условиях</p>
+        <div class="loan-grid">
+          <div class="loan-item"><span class="check-icon">✓</span> До 90% от стоимости объекта</div>
+          <div class="loan-item"><span class="check-icon">✓</span> Одобрение за 1–2 дня</div>
+          <div class="loan-item"><span class="check-icon">✓</span> Без подтверждения дохода</div>
+          <div class="loan-item"><span class="check-icon">✓</span> Работа с любыми банками</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Объекты недвижимости</h2>
+      <p class="section-subtitle">Работаем со всеми типами объектов</p>
+      <div class="tags">
+        <span class="tag">Квартиры</span>
+        <span class="tag">Дома</span>
+        <span class="tag">Загородная недвижимость</span>
+        <span class="tag">Коммерческая недвижимость</span>
+        <span class="tag">Апартаменты</span>
+        <span class="tag">Участки</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="form-wrapper" id="form">
+        <h2 class="section-title" style="text-align:center;">Оставить заявку</h2>
+        <p class="section-subtitle" style="text-align:center;">Свяжемся с вами в ближайшее время</p>
+        <form id="leadForm">
+          <div class="form-group">
+            <label for="nameInput">Ваше имя</label>
+            <input type="text" id="nameInput" placeholder="Иван" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneInput">Телефон</label>
+            <input type="tel" id="phoneInput" placeholder="+7 (___) ___-__-__" required>
+          </div>
+          <div class="form-group">
+            <label for="serviceSelect">Услуга</label>
+            <select id="serviceSelect">
+              <option>Купить недвижимость</option>
+              <option>Продать недвижимость</option>
+              <option>Сдать / снять</option>
+              <option>Кредит под залог</option>
+            </select>
+          </div>
+          <div class="form-group" style="display:flex; align-items:flex-start; gap:10px;">
+            <input type="checkbox" id="consentInput" style="width:auto; margin-top:4px;">
+            <label for="consentInput" style="font-weight:400; font-size:13px; color:var(--text-muted); margin:0;">
+              Я согласен с <a href="privacy.html" style="color:var(--accent); text-decoration:underline;" target="_blank">политикой конфиденциальности</a> и обработкой персональных данных
+            </label>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Отправить</button>
+            <a href="https://max.ru/" class="btn btn-max" target="_blank" rel="noopener">Написать в MAX</a>
+          </div>
+          <div class="status-msg" id="statusMsg">Заявка отправлена! Мы свяжемся с вами.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Resort Development Group</h3>
+          <p style="color:#94a3b8; font-size:14px; margin-top:8px;">Агентство недвижимости • Москва и Химки</p>
+          <p style="color:#94a3b8; font-size:13px; margin-top:8px;">Пн–Пт: 9:00–20:00<br>Сб–Вс: по записи</p>
+        </div>
+        <div class="footer-phones">
+          <span style="font-size:13px; color:#94a3b8;">Телефоны:</span>
+          <a href="tel:+79670191605">+7 (967) 019-16-05</a>
+          <a href="tel:+79035238402">+7 (903) 523-84-02</a>
+          <div class="footer-messengers">
+            <a href="https://t.me/" class="btn btn-tg" style="padding:8px 14px; font-size:13px;" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://wa.me/79670191605" class="btn btn-wa" style="padding:8px 14px; font-size:13px;" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://max.ru/" class="btn btn-max" style="padding:8px 14px; font-size:13px;" target="_blank" rel="noopener">MAX</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">© 2026 Resort Development Group. Все права защищены. • <a href="privacy.html" style="color:#94a3b8;">Политика конфиденциальности</a></div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
